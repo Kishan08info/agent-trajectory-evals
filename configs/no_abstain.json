@@ -1,0 +1,4 @@
+{
+  "agent": "no_abstain",
+  "description": "Answers unanswerable tasks from whatever the search returns instead of abstaining."
+}

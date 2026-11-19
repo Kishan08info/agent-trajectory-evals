@@ -1,0 +1,4 @@
+{
+  "agent": "sloppy",
+  "description": "Wrong first tool on multi-step tasks, drops the price lookup on t05, queries refunded instead of paid on t07."
+}

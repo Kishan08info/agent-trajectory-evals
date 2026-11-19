@@ -1,0 +1,206 @@
+[
+  {
+    "answer_keywords": [
+      "$99",
+      "Growth"
+    ],
+    "answerable": true,
+    "expected_answer": "$99 Growth",
+    "golden": [
+      {
+        "args": {
+          "query": "Growth plan price"
+        },
+        "tool": "search_docs"
+      }
+    ],
+    "id": "t01",
+    "question": "What is the monthly price of the Growth plan?"
+  },
+  {
+    "answer_keywords": [
+      "30 days"
+    ],
+    "answerable": true,
+    "expected_answer": "30 days",
+    "golden": [
+      {
+        "args": {
+          "query": "refund policy"
+        },
+        "tool": "search_docs"
+      }
+    ],
+    "id": "t02",
+    "question": "Within how many days can a customer request a full refund?"
+  },
+  {
+    "answer_keywords": [
+      "10,000"
+    ],
+    "answerable": true,
+    "expected_answer": "10,000",
+    "golden": [
+      {
+        "args": {
+          "query": "API rate limit Pro"
+        },
+        "tool": "search_docs"
+      }
+    ],
+    "id": "t03",
+    "question": "What is the API daily request limit on the Pro plan?"
+  },
+  {
+    "answer_keywords": [
+      "$995"
+    ],
+    "answerable": true,
+    "expected_answer": "Customer C0105 paid $995 in total across paid orders.",
+    "golden": [
+      {
+        "args": {
+          "customer_id": "C0105"
+        },
+        "tool": "get_customer"
+      },
+      {
+        "args": {
+          "customer_id": "C0105",
+          "status": "paid"
+        },
+        "tool": "list_orders"
+      }
+    ],
+    "id": "t04",
+    "question": "How much did customer C0105 pay in total across paid orders?"
+  },
+  {
+    "answer_keywords": [
+      "growth",
+      "$99"
+    ],
+    "answerable": true,
+    "expected_answer": "growth $99",
+    "golden": [
+      {
+        "args": {
+          "customer_id": "C0102"
+        },
+        "tool": "get_customer"
+      },
+      {
+        "args": {
+          "query": "Growth plan price"
+        },
+        "tool": "search_docs"
+      }
+    ],
+    "id": "t05",
+    "question": "Which plan is customer C0102 on, and what does it cost per month?"
+  },
+  {
+    "answer_keywords": [
+      "$1643"
+    ],
+    "answerable": true,
+    "expected_answer": "Total paid revenue in March 2026 was $1643.",
+    "golden": [
+      {
+        "args": {
+          "month": "2026-03"
+        },
+        "tool": "revenue_by_month"
+      }
+    ],
+    "id": "t06",
+    "question": "What was the total paid revenue in March 2026?"
+  },
+  {
+    "answer_keywords": [
+      "2 paid orders"
+    ],
+    "answerable": true,
+    "expected_answer": "Enterprise customers placed 2 paid orders in February 2026.",
+    "golden": [
+      {
+        "args": {
+          "month": "2026-02",
+          "plan": "enterprise",
+          "status": "paid"
+        },
+        "tool": "orders_by_plan"
+      }
+    ],
+    "id": "t07",
+    "question": "How many paid orders did enterprise customers place in February 2026?"
+  },
+  {
+    "answer_keywords": [
+      "$49",
+      "Starter"
+    ],
+    "answerable": true,
+    "expected_answer": "$49 Starter",
+    "golden": [
+      {
+        "args": {
+          "query": "Starter plan price"
+        },
+        "tool": "search_docs"
+      }
+    ],
+    "id": "t08",
+    "question": "What is the monthly price of the Starter plan?"
+  },
+  {
+    "answer_keywords": [
+      "SSO"
+    ],
+    "answerable": true,
+    "expected_answer": "SSO",
+    "golden": [
+      {
+        "args": {
+          "query": "Enterprise SSO"
+        },
+        "tool": "search_docs"
+      }
+    ],
+    "id": "t09",
+    "question": "Does the Enterprise plan include single sign-on (SSO)?"
+  },
+  {
+    "answer_keywords": [
+      "4 hours"
+    ],
+    "answerable": true,
+    "expected_answer": "4 hours",
+    "golden": [
+      {
+        "args": {
+          "query": "support SLA Pro"
+        },
+        "tool": "search_docs"
+      }
+    ],
+    "id": "t10",
+    "question": "What is the support response time for Pro customers?"
+  },
+  {
+    "answer_keywords": [],
+    "answerable": false,
+    "expected_answer": null,
+    "golden": [],
+    "id": "t11",
+    "question": "What is the name of the company's CEO?"
+  },
+  {
+    "answer_keywords": [],
+    "answerable": false,
+    "expected_answer": null,
+    "golden": [],
+    "id": "t12",
+    "question": "What was the total paid revenue in 2025?"
+  }
+]

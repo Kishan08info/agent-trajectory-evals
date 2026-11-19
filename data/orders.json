@@ -1,0 +1,430 @@
+{
+  "customers": [
+    {
+      "id": "C0101",
+      "name": "Acme Corp",
+      "plan": "starter"
+    },
+    {
+      "id": "C0102",
+      "name": "Beta Ltd",
+      "plan": "growth"
+    },
+    {
+      "id": "C0103",
+      "name": "Gamma Inc",
+      "plan": "pro"
+    },
+    {
+      "id": "C0104",
+      "name": "Delta LLC",
+      "plan": "enterprise"
+    },
+    {
+      "id": "C0105",
+      "name": "Epsilon Co",
+      "plan": "pro"
+    },
+    {
+      "id": "C0106",
+      "name": "Zeta Group",
+      "plan": "growth"
+    },
+    {
+      "id": "C0107",
+      "name": "Eta Systems",
+      "plan": "starter"
+    },
+    {
+      "id": "C0108",
+      "name": "Theta Labs",
+      "plan": "enterprise"
+    }
+  ],
+  "orders": [
+    {
+      "amount": 49,
+      "customer_id": "C0101",
+      "month": "2026-01",
+      "order_id": "O0001",
+      "plan": "starter",
+      "status": "paid"
+    },
+    {
+      "amount": 49,
+      "customer_id": "C0101",
+      "month": "2026-02",
+      "order_id": "O0002",
+      "plan": "starter",
+      "status": "paid"
+    },
+    {
+      "amount": 49,
+      "customer_id": "C0101",
+      "month": "2026-03",
+      "order_id": "O0003",
+      "plan": "starter",
+      "status": "paid"
+    },
+    {
+      "amount": 49,
+      "customer_id": "C0101",
+      "month": "2026-04",
+      "order_id": "O0004",
+      "plan": "starter",
+      "status": "paid"
+    },
+    {
+      "amount": 49,
+      "customer_id": "C0101",
+      "month": "2026-05",
+      "order_id": "O0005",
+      "plan": "starter",
+      "status": "paid"
+    },
+    {
+      "amount": 49,
+      "customer_id": "C0101",
+      "month": "2026-06",
+      "order_id": "O0006",
+      "plan": "starter",
+      "status": "paid"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0102",
+      "month": "2026-01",
+      "order_id": "O0007",
+      "plan": "growth",
+      "status": "refunded"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0102",
+      "month": "2026-02",
+      "order_id": "O0008",
+      "plan": "growth",
+      "status": "paid"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0102",
+      "month": "2026-03",
+      "order_id": "O0009",
+      "plan": "growth",
+      "status": "paid"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0102",
+      "month": "2026-04",
+      "order_id": "O0010",
+      "plan": "growth",
+      "status": "paid"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0102",
+      "month": "2026-05",
+      "order_id": "O0011",
+      "plan": "growth",
+      "status": "paid"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0102",
+      "month": "2026-06",
+      "order_id": "O0012",
+      "plan": "growth",
+      "status": "paid"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0103",
+      "month": "2026-01",
+      "order_id": "O0013",
+      "plan": "pro",
+      "status": "paid"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0103",
+      "month": "2026-02",
+      "order_id": "O0014",
+      "plan": "pro",
+      "status": "paid"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0103",
+      "month": "2026-03",
+      "order_id": "O0015",
+      "plan": "pro",
+      "status": "paid"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0103",
+      "month": "2026-04",
+      "order_id": "O0016",
+      "plan": "pro",
+      "status": "paid"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0103",
+      "month": "2026-05",
+      "order_id": "O0017",
+      "plan": "pro",
+      "status": "paid"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0103",
+      "month": "2026-06",
+      "order_id": "O0018",
+      "plan": "pro",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0104",
+      "month": "2026-01",
+      "order_id": "O0019",
+      "plan": "enterprise",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0104",
+      "month": "2026-02",
+      "order_id": "O0020",
+      "plan": "enterprise",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0104",
+      "month": "2026-03",
+      "order_id": "O0021",
+      "plan": "enterprise",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0104",
+      "month": "2026-04",
+      "order_id": "O0022",
+      "plan": "enterprise",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0104",
+      "month": "2026-05",
+      "order_id": "O0023",
+      "plan": "enterprise",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0104",
+      "month": "2026-06",
+      "order_id": "O0024",
+      "plan": "enterprise",
+      "status": "paid"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0105",
+      "month": "2026-01",
+      "order_id": "O0025",
+      "plan": "pro",
+      "status": "failed"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0105",
+      "month": "2026-02",
+      "order_id": "O0026",
+      "plan": "pro",
+      "status": "paid"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0105",
+      "month": "2026-03",
+      "order_id": "O0027",
+      "plan": "pro",
+      "status": "paid"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0105",
+      "month": "2026-04",
+      "order_id": "O0028",
+      "plan": "pro",
+      "status": "paid"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0105",
+      "month": "2026-05",
+      "order_id": "O0029",
+      "plan": "pro",
+      "status": "paid"
+    },
+    {
+      "amount": 199,
+      "customer_id": "C0105",
+      "month": "2026-06",
+      "order_id": "O0030",
+      "plan": "pro",
+      "status": "paid"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0106",
+      "month": "2026-01",
+      "order_id": "O0031",
+      "plan": "growth",
+      "status": "paid"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0106",
+      "month": "2026-02",
+      "order_id": "O0032",
+      "plan": "growth",
+      "status": "paid"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0106",
+      "month": "2026-03",
+      "order_id": "O0033",
+      "plan": "growth",
+      "status": "paid"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0106",
+      "month": "2026-04",
+      "order_id": "O0034",
+      "plan": "growth",
+      "status": "failed"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0106",
+      "month": "2026-05",
+      "order_id": "O0035",
+      "plan": "growth",
+      "status": "paid"
+    },
+    {
+      "amount": 99,
+      "customer_id": "C0106",
+      "month": "2026-06",
+      "order_id": "O0036",
+      "plan": "growth",
+      "status": "paid"
+    },
+    {
+      "amount": 49,
+      "customer_id": "C0107",
+      "month": "2026-01",
+      "order_id": "O0037",
+      "plan": "starter",
+      "status": "paid"
+    },
+    {
+      "amount": 49,
+      "customer_id": "C0107",
+      "month": "2026-02",
+      "order_id": "O0038",
+      "plan": "starter",
+      "status": "paid"
+    },
+    {
+      "amount": 49,
+      "customer_id": "C0107",
+      "month": "2026-03",
+      "order_id": "O0039",
+      "plan": "starter",
+      "status": "refunded"
+    },
+    {
+      "amount": 49,
+      "customer_id": "C0107",
+      "month": "2026-04",
+      "order_id": "O0040",
+      "plan": "starter",
+      "status": "paid"
+    },
+    {
+      "amount": 49,
+      "customer_id": "C0107",
+      "month": "2026-05",
+      "order_id": "O0041",
+      "plan": "starter",
+      "status": "paid"
+    },
+    {
+      "amount": 49,
+      "customer_id": "C0107",
+      "month": "2026-06",
+      "order_id": "O0042",
+      "plan": "starter",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0108",
+      "month": "2026-01",
+      "order_id": "O0043",
+      "plan": "enterprise",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0108",
+      "month": "2026-02",
+      "order_id": "O0044",
+      "plan": "enterprise",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0108",
+      "month": "2026-03",
+      "order_id": "O0045",
+      "plan": "enterprise",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0108",
+      "month": "2026-04",
+      "order_id": "O0046",
+      "plan": "enterprise",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0108",
+      "month": "2026-05",
+      "order_id": "O0047",
+      "plan": "enterprise",
+      "status": "paid"
+    },
+    {
+      "amount": 499,
+      "customer_id": "C0108",
+      "month": "2026-06",
+      "order_id": "O0048",
+      "plan": "enterprise",
+      "status": "paid"
+    }
+  ]
+}

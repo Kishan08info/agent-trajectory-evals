@@ -1,0 +1,54 @@
+{
+  "agent": "sloppy",
+  "all_gates_passed": false,
+  "config": {
+    "agent": "sloppy",
+    "description": "Wrong first tool on multi-step tasks, drops the price lookup on t05, queries refunded instead of paid on t07."
+  },
+  "gates": {
+    "abstention_recall": {
+      "actual": 1.0,
+      "minimum": 1.0,
+      "passed": true
+    },
+    "answer_accuracy": {
+      "actual": 0.8,
+      "minimum": 0.95,
+      "passed": false
+    },
+    "mean_judge_total": {
+      "actual": 5.4167,
+      "minimum": 5.5,
+      "passed": false
+    },
+    "mean_step_accuracy": {
+      "actual": 0.9583,
+      "minimum": 0.95,
+      "passed": true
+    },
+    "mean_tool_f1": {
+      "actual": 0.9833,
+      "minimum": 0.95,
+      "passed": true
+    }
+  },
+  "summary": {
+    "abstention_f1": 1.0,
+    "abstention_precision": 1.0,
+    "abstention_recall": 1.0,
+    "answer_accuracy": 0.8,
+    "mean_args_accuracy": 0.875,
+    "mean_judge_total": 5.4167,
+    "mean_sequence_similarity": 0.9417,
+    "mean_step_accuracy": 0.9583,
+    "mean_steps": 1.0833,
+    "mean_tool_f1": 0.9833,
+    "mean_tool_precision": 0.9722,
+    "mean_tool_recall": 1.0,
+    "n_answerable": 10,
+    "n_tasks": 12,
+    "n_unanswerable": 2,
+    "total_extra_tool_calls": 1,
+    "total_missing_tool_calls": 0
+  }
+}

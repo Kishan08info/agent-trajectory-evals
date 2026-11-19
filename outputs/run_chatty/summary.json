@@ -1,0 +1,54 @@
+{
+  "agent": "chatty",
+  "all_gates_passed": false,
+  "config": {
+    "agent": "chatty",
+    "description": "Repeats every tool call once to double-check: right answers, wasteful trajectory."
+  },
+  "gates": {
+    "abstention_recall": {
+      "actual": 1.0,
+      "minimum": 1.0,
+      "passed": true
+    },
+    "answer_accuracy": {
+      "actual": 1.0,
+      "minimum": 0.95,
+      "passed": true
+    },
+    "mean_judge_total": {
+      "actual": 5.0,
+      "minimum": 5.5,
+      "passed": false
+    },
+    "mean_step_accuracy": {
+      "actual": 1.0,
+      "minimum": 0.95,
+      "passed": true
+    },
+    "mean_tool_f1": {
+      "actual": 0.7222,
+      "minimum": 0.95,
+      "passed": false
+    }
+  },
+  "summary": {
+    "abstention_f1": 1.0,
+    "abstention_precision": 1.0,
+    "abstention_recall": 1.0,
+    "answer_accuracy": 1.0,
+    "mean_args_accuracy": 1.0,
+    "mean_judge_total": 5.0,
+    "mean_sequence_similarity": 0.7222,
+    "mean_step_accuracy": 1.0,
+    "mean_steps": 2.0,
+    "mean_tool_f1": 0.7222,
+    "mean_tool_precision": 0.5833,
+    "mean_tool_recall": 1.0,
+    "n_answerable": 10,
+    "n_tasks": 12,
+    "n_unanswerable": 2,
+    "total_extra_tool_calls": 12,
+    "total_missing_tool_calls": 0
+  }
+}

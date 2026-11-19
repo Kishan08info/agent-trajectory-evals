@@ -1,0 +1,4 @@
+{
+  "agent": "baseline",
+  "description": "Reference policy: freshness cutoff on, plans from question, abstains when unanswerable."
+}

@@ -1,0 +1,4 @@
+{
+  "agent": "chatty",
+  "description": "Repeats every tool call once to double-check: right answers, wasteful trajectory."
+}
